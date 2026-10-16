@@ -39,6 +39,7 @@ Commit only when `just test` passes. A branch is done only when `just lint` pass
 - **Tests check behaviour you can see.** One behaviour per test, Given/When/Then comments, `#[rstest::rstest]` on every test, a message on every assert.
 - **Bind only the keys the user asked for.** Direct keys use Alt. Never Super.
 - **Code comments describe the code.** No notes about plans, specs or divergences; plans aren't kept.
+- **Commit messages are conventional commits.** type(scope): subject, at most 72 characters, imperative, with the area as the scope (sidebar, panes, sessions…) and no plan or phase names.
 - **Keep files under 2,000 production lines.** Split one by concern before it passes that.
 
 ## Topic files
